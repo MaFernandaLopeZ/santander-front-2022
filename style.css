@@ -26,7 +26,7 @@ button{
     color: #fff;
 }
 
-img{
+.img-capterra{
     height: 60px;
     display: block;
     margin: auto;
@@ -41,4 +41,42 @@ img{
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 0;
+}
+
+li{
+    display: inline;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px; /*Solo el texto tenga tamaño*/
+    line-height: 45px; /*Tenga un largo de 45 pixeles entre bloque*/
+    height: 100%;
+    vertical-align: middle; /**/
+}
+
+/* se proporciona el tamaño de los contenedores
+entre cada parte que contenga el header */
+
+.logo{
+    width: 15%;
+}
+
+.logo > img{
+    width: 15%;
+}
+
+.navbar{
+    width: 70%;
+    text-align: center; /*texto centrado*/
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
 }
