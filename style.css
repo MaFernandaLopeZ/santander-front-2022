@@ -36,3 +36,9 @@ img{
     height: 400px;
     max-width: 1000px;
 }
+
+.header{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
