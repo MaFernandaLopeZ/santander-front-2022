@@ -38,9 +38,10 @@ button{
 }
 
 .header{
-    margin-top: 40px;
+    /* margin-top: 40px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px; */
+    margin: 40px 20px 0;
     font-size: 0;
 }
 
@@ -54,6 +55,11 @@ li{
     line-height: 45px; /*Tenga un largo de 45 pixeles entre bloque*/
     height: 100%;
     vertical-align: middle; /**/
+}
+
+.main{
+    margin-top: 140px;
+    text-align: center;
 }
 
 /* se proporciona el tamaño de los contenedores
@@ -72,6 +78,10 @@ entre cada parte que contenga el header */
     text-align: center; /*texto centrado*/
     color: #025157;
     font-weight: 500;
+}
+
+.navbar > ul > li {
+    margin: 0 20px 0; /* top left rigth down */
 }
 
 .actions {
